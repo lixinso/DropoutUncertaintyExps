@@ -6,14 +6,14 @@ import warnings
 warnings.filterwarnings("ignore")
 
 import math
-from scipy.misc import logsumexp
+from scipy.special import logsumexp
 import numpy as np
 
-from keras.regularizers import l2
-from keras import Input
-from keras.layers import Dropout
-from keras.layers import Dense
-from keras import Model
+from tensorflow.keras.regularizers import l2
+from tensorflow.keras import Input
+from tensorflow.keras.layers import Dropout
+from tensorflow.keras.layers import Dense
+from tensorflow.keras import Model
 
 import time
 
